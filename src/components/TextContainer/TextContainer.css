@@ -1,0 +1,46 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  color: #1e734b;
+  background-color: #f4fefd;
+  height: 60%;
+  justify-content: space-between;
+  border: 1px solid white;
+  padding: 0 1em;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.activeItem {
+  margin-bottom: 0.5em;
+}
+
+.activeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.activeHeader h3 {
+  color: #333;
+}
+
+.groupIcon {
+  margin-left: 0.3em;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 872px) {
+  .textContainer {
+    display: none;
+  }
+}
